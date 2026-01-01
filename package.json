@@ -1,0 +1,18 @@
+{
+  "name": "geometry-converter-api",
+  "version": "0.1.0",
+  "description": "Simple REST API for converting geospatial vector files using ogr2ogr, with optional reprojection to/from UTM/lat-lon.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
